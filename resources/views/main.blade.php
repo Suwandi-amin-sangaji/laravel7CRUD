@@ -50,7 +50,10 @@
                      <li>
                         <a href="{{ url ('programs')}}"> <i class="menu-icon fa fa-puzzle-piece"></i>PROGRAM</a>
                     </li>
-                    
+                    <li>
+                        <a href="{{ url ('images')}}"> <i class="menu-icon fa fa-image"></i>IMAGE</a>
+                    </li>
+
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>

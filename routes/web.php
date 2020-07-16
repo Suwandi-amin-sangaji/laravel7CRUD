@@ -28,5 +28,7 @@ route::post('edulevels','EdulevelController@addProses');
 route::get('edulevels/edit/{id}', 'EdulevelController@edit');
 route::patch('edulevels/{id}', 'EdulevelController@editProses');
 route::delete('edulevels/{id}', 'EdulevelController@delete');
-
 Route::resource('programs', 'ProgramController');
+
+route::get('images','ImageController@index');
+route::post('images','ImageController@index')->name('images.store');

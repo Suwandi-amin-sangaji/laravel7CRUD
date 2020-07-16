@@ -11,5 +11,5 @@ class Program extends Model
     {
         return $this->belongsTo('App\Edulevel');
     }
-    protected $table = 'programs';
+    
 }

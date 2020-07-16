@@ -16,7 +16,7 @@ class ProgramController extends Controller
     {
         $programs = Program::all();
         // return $programs;
-        return view('program/index',compact('programs'));
+        return view ('program/index', compact('programs'));
     }
 
     /**
